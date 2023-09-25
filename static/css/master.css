@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    font-family: Arial, Tahoma;
+}
+
+h1 {
+    text-align: center;
+}
+
+.page-head, .page-description {
+    text-align: center;
+}
