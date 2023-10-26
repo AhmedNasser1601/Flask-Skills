@@ -8,10 +8,11 @@ my_skills = [("Python", 90), ("Java", 80), ("C++", 70), ("C#", 85), ("R", 50)]
 def HomePage():
     return render_template(
         'HOME.html',
-        title="H.O.M.E",
-        welcome="Welcome to FLASK",
+        title="S.K.I.L.L.S",
         custom_css="home",
-        custom_js="home"
+        page_head="My Skills",
+        page_description="This is My Skills Page",
+        skills=my_skills
     )
 
 if __name__ == "__main__":
